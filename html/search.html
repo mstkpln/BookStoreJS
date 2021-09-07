@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <marquee scrollamount="4" height="100" width="100%" direction="down">
+
+    <a style="text-decoration:none" href="page1.html">
+        <center>
+            <h2>Welcome to GoodFellas BookStore</h2>
+        </center>
+    </a>
+
+</marquee>
+<meta name="viewport">
+<link rel="stylesheet" href="search.css">
+<script src="search.js" defer></script>
+<script src="page1.js" defer></script>
+<button><a style="text-decoration:none" href="sign-up.html">Sign Up</a>
+</button>
+<button><a style="text-decoration:none" href="view-cart.html">Cart </a><i class="fa fa-shopping-cart"></i></button>
+
+</head>
+
+<body>
+<p> 
+
+</p>
+<h2>Book Search</h2>
+
+<input type="text" id="myInput" onkeyup="myBook()" placeholder="Search for a book" title="Type in a title">
+<button id="BookList" onclick="sort()">
+      Click Here To Sort
+  </button>
+<ul id="myUL">
+  <li><a href="#">Crying in H Mart: A Memoir </a><img src="book1.PNG"> <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 ✔</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 ✔</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 ✔</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 ✔</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 ✔</label> <p class="price" id= "pr">$19.99</p><input value=1 type="number">
+    <p>4.1 average based on 254 reviews.</p>
+    </li>
+  <li><a href="#">Braiding Sweetgrass</a>
+    <img src="book2.PNG"> <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$16.56</p><input value=1 type="number">
+      <p>4.7 average based on 698 reviews.</p>
+  </div>
+
+  </li>
+  <li><a href="#">Yoke: My Yoga of Self-Acceptance</a>
+    <img src="book3.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$14.67</p><input value=1 type="number">
+      <p>4.2 average based on 1254 reviews.</p>
+  </div>
+  </li>
+  <li><a href="#">How the Word Is Passed: A Reckoning with the History of Slavery Across America</a>
+    <img src="book4.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$26.68</p><input value=1 type="number">
+      <p>4.8 average based on 335 reviews.</p>
+  </div>
+  </li>
+
+  <li><a href="#">One Last Stop</a>
+    <img src="book5.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$15.63</p><input value=1 type="number">
+      <p>4.4 average based on 654 reviews.</p>
+  </div>
+  </li>
+  <li><a href="#">Somebody's Daughter: A Memoir</a>
+    <img src="book6.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$25.75</p><input value=1 type="number">
+      <p>4.9 average based on 994 reviews.</p>
+  </div>
+  
+  </li>
+  <li><a href="#">The 1619 Project</a>
+    <img src="book7.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$9.99</p><input value=1 type="number">
+      <p>4.6 average based on 1654 reviews.</p>
+  </div>
+  </li>
+
+  <li><a href="#">All We Can Save</a>
+    <img src="book8.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$6.56</p><input value=1 type="number">
+      <p>4.8 average based on 899 reviews.</p>
+  </div>
+  </li>
+
+  <li><a href="#">Learning in Public</a>
+    <img src="book9.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$24.67</p><input value=1 type="number">
+      <p>4.6 average based on 1654 reviews.</p>
+  </div>
+  </li>
+
+  <li><a href="#">The Final Girl Support Group</a>
+    <img src="book10.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$17.68</p><input value=1 type="number">
+      <p>4.5 average based on 478 reviews.</p>
+  </div>
+  </li>
+
+  <li><a href="#">The Verge: Reformation, Renaissance, and Forty Years that Shook the World</a>
+    <img src="book11.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$12.63</p><input value=1 type="number">
+      <p>4.9 average based on 666 reviews.</p>
+  </div>
+  </li>
+
+  <li><a href="#">The Anthropocene Reviewed</a>
+    <img src="book12.PNG">
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 ✔</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 ✔</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 ✔</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 ✔</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 ✔</label><p class="price" id= "pr">$25.75</p><input value=1 type="number">
+      <p>4.2 average based on 1472 reviews.</p>
+  </div>
+  </li>
+
+</ul>
+
+</body>
+</html>

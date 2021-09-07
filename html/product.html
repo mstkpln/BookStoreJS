@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <nav id="mainmenu">
+        <button><a href="sign-up.html">Sign Up</a>
+        </button>
+      
+      
+      <button><a href="view-cart.html">Cart</a></i></button>
+    <title> GoodFellas BookStore </title>
+    <meta name="description" content="GoodFellas BookStore">
+    <meta name="keywords" content="Bookstore, shopping, online, html">
+    <link rel="stylesheet" href="product.css">
+    <script src="productJS.js" defer></script>
+</head>
+<marquee scrollamount="4" height="200" width="100%" direction="down">
+
+    <a style="text-decoration:none" href="page1.html">
+        <center>
+            <h2>Welcome to GoodFellas BookStore</h2>
+        </center>
+    </a>
+
+</marquee>
+
+<body>
+    <form action="nextpage" method="post" id="theForm">
+        <fieldset>
+            <legend>Choose your Products</legend>
+            <table style="padding:2px">
+                <tr>
+                    <td>
+                        <img src="book1.PNG" />
+                    </td>
+                    <td>
+                        <img src="book2.PNG" />
+                    </td>
+                    <td>
+                        <img src="book3.PNG" />
+                    </td>
+                    <td>
+                        <img src="book4.PNG" />
+                    </td>
+                    <td>
+                        <img src="book5.PNG" />
+                    </td>
+                    <td>
+                        <img src="book6.PNG" />
+                    </td>
+                    <td>
+                        <img src="book7.PNG" />
+                    </td>
+                    <td>
+                        <img src="book8.PNG" />
+                    </td>
+                    <td>
+                        <img src="book9.PNG" />
+                    </td>
+                    <td>
+                        <img src="book10.PNG" />
+                    </td>
+                    <td>
+                        <img src="book11.PNG" />
+                    </td>
+                    <td>
+                        <img src="book12.PNG" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="r" value="19.99" onclick="total(this.form);" />$19.99</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="7" value="16.56" onclick="total(this.form);" />$16.56</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="asd7" value="14.67" onclick="total(this.form);" />$14.67</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="rasd7" value="26.68" onclick="total(this.form);" />$26.68</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="rasd7" value="15.63" onclick="total(this.form);" />$15.63</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="rasd7" value="25.75" onclick="total(this.form);" />$25.75</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="r" value="9.99" onclick="total(this.form);" />$9.99</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="7" value="6.56" onclick="total(this.form);" />$6.56</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="asd7" value="24.67" onclick="total(this.form);" />$24.67</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="rasd7" value="17.68" onclick="total(this.form);" />$17.68</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="rasd7" value="12.63" onclick="total(this.form);" />$12.63</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                    <td class="buttons">
+                        <div>
+                            <input type="checkbox" name="rasd7" value="25.75" onclick="total(this.form);" />$25.75</div>
+                        <input min="0" max="5" type="number" class="quantity" name="quantity" value="1" />
+                    </td>
+                </tr>
+            </table>
+            <div id="totalDiv">&dollar;</div>
+            <div>
+                <input type="submit" value="Place Order" />
+            </div>
+        </fieldset>
+    </form>
+    <div id="content-wrapper">
+
+
+        <div class="column">
+            <img src="book1.PNG">
+            <h1>Crying in H Mart: A Memoir</h1>
+            <h3>Michelle Zauner</h3>
+            <hr>
+        </div>
+        <div class="column">
+            <p>
+                INSTANT NEW YORK TIMES BEST SELLER - Named a Best Book of April 2021 by - AV Club - Bustle -
+                Entertainment Weekly - Good Morning America - Chicago Review of Books - Fortune - TIME - CNN Underscored
+                - Apartment Therapy - Popsugar - Hello Giggles - Business Insider - The Millions - Wall Street Journal
+                Magazine - Glamour
+                From the indie rockstar of Japanese Breakfast fame, and author of the viral 2018 New Yorker essay that
+                shares the title of this book, an unflinching, powerful memoir about growing up Korean American, losing
+                her mother, and forging her own identity.
+                In this exquisite story of family, food, grief, and endurance, Michelle Zauner proves herself far more
+                than a dazzling singer, songwriter, and guitarist. With humor and heart, she tells of growing up one of
+                the few Asian American kids at her school in Eugene, Oregon; of struggling with her mother's particular,
+                high expectations of her; of a painful adolescence; of treasured months spent in her grandmother's tiny
+                apartment in Seoul, where she and her mother would bond, late at night, over heaping plates of food.
+                As she grew up, moving to the East Coast for college, finding work in the restaurant industry, and
+                performing gigs with her fledgling band--and meeting the man who would become her husband--her
+                Koreanness began to feel ever more distant, even as she found the life she wanted to live. It was her
+                mother's diagnosis of terminal cancer, when Michelle was twenty-five, that forced a reckoning with her
+                identity and brought her to reclaim the gifts of taste, language, and history her mother had given her.
+                Vivacious and plainspoken, lyrical and honest, Zauner's voice is as radiantly alive on the page as it is
+                onstage. Rich with intimate anecdotes that will resonate widely, and complete with family photos, Crying
+                in H Mart is a book to cherish, share, and reread.
+                </p>
+            <p>4.1 average based on 254 reviews.</p>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="book2.PNG">
+            <h1>Braiding Sweetgrass</h1>
+            <h3>Robin Wall Kimmerer</h3>
+            <hr>
+        </div>
+        <div class="column">
+            <p>
+                A New York Times Bestseller
+                A Washington Post Bestseller
+                Named a Best Essay Collection of the Decade by Literary Hub
+                As a botanist, Robin Wall Kimmerer has been trained to ask questions of nature with the tools of
+                science. As a member of the Citizen Potawatomi Nation, she embraces the notion that plants and animals
+                are our oldest teachers. In Braiding Sweetgrass, Kimmerer brings these two lenses of knowledge together
+                to take us on "a journey that is every bit as mythic as it is scientific, as sacred as it is historical,
+                as clever as it is wise" (Elizabeth Gilbert).
+                Drawing on her life as an indigenous scientist, and as a woman, Kimmerer shows how other living
+                beings--asters and goldenrod, strawberries and squash, salamanders, algae, and sweetgrass--offer us
+                gifts and lessons, even if we've forgotten how to hear their voices. In reflections that range from the
+                creation of Turtle Island to the forces that threaten its flourishing today, she circles toward a
+                central argument: that the awakening of ecological consciousness requires the acknowledgment and
+                celebration of our reciprocal relationship with the rest of the living world. For only when we can hear
+                the languages of other beings will we be capable of understanding the generosity of the earth, and learn
+                to give our own gifts in return.</p>
+            <p>4.7 average based on 698 reviews.</p>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="book3.PNG">
+            <h1>Yoke: My Yoga of Self-Acceptance</h1>
+            <h3>Jessamyn Stanley</h3>
+            <hr>
+        </div>
+        <div class="column">
+            <p>
+                Finding self-acceptance both on and off the mat.
+                In Sanskrit, yoga means to "yoke." To yoke mind and body, movement and breath, light and dark, the good
+                and the bad. This larger idea of "yoke" is what Jessamyn Stanley calls the yoga of the everyday--a yoga
+                that is not just about perfecting your downward dog but about applying the hard lessons learned on the
+                mat to the even harder daily project of living.
+                In a series of deeply honest, funny autobiographical essays, Jessamyn explores everything from imposter
+                syndrome to cannabis to why it's a full-time job loving yourself, all through the lens of yoke. She
+                calls out an American yoga complex that prefers debating the merits of cotton versus polyblend leggings
+                rather than owning up to its overwhelming Whiteness. She questions why the Western take on yoga so often
+                misses--or misuses--the tradition's spiritual dimension. And reveals what she calls her own "whole-ass
+                problematic" Growing up Baháí, loving astrology, learning to meditate, finding prana in music.
+                And in the end, Jessamyn invites every reader to find the authentic spirit of yoke--linking that good
+                and that bad, that light and that dark.
+            </p>
+            <p>4.2 average based on 1254 reviews.</p>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="book4.PNG">
+            <h1>How the Word Is Passed: A Reckoning with the History of Slavery Across America</h1>
+            <h3>Clint Smith</h3>
+            <hr>
+        </div>
+        <div class="column">
+            <p>Instant #1 New York Times bestseller. "The Atlantic writer drafts a history of slavery in this country
+                unlike anything you've read before" (Entertainment Weekly).
+                Beginning in his hometown of New Orleans, Clint Smith leads the reader on an unforgettable tour of
+                monuments and landmarks--those that are honest about the past and those that are not--that offer an
+                intergenerational story of how slavery has been central in shaping our nation's collective history, and
+                ourselves.
+                It is the story of the Monticello Plantation in Virginia, the estate where Thomas Jefferson wrote
+                letters espousing the urgent need for liberty while enslaving more than four hundred people. It is the
+                story of the Whitney Plantation, one of the only former plantations devoted to preserving the experience
+                of the enslaved people whose lives and work sustained it. It is the story of Angola, a former
+                plantation-turned-maximum-security prison in Louisiana that is filled with Black men who work across the
+                18,000-acre land for virtually no pay. And it is the story of Blandford Cemetery, the final resting
+                place of tens of thousands of Confederate soldiers.
+                A deeply researched and transporting exploration of the legacy of slavery and its imprint on centuries
+                of American history, How the Word Is Passed illustrates how some of our country's most essential stories
+                are hidden in plain view--whether in places we might drive by on our way to work, holidays such as
+                Juneteenth, or entire neighborhoods like downtown Manhattan, where the brutal history of the trade in
+                enslaved men, women, and children has been deeply imprinted.
+                Informed by scholarship and brought to life by the story of people living today, Smith's debut work of
+                nonfiction is a landmark of reflection and insight that offers a new understanding of the hopeful role
+                that memory and history can play in making sense of our country and how it has come to be.</p>
+            <p>4.8 average based on 335 reviews.</p>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="book5.PNG">
+            <h1>One Last Stop</h1>
+            <h3>Casey McQuiston</h3>
+            <hr>
+        </div>
+        <div class="column">
+            <p>*INSTANT NEW YORK TIMES BESTSELLER*</p>
+            <p> *INSTANT USA TODAY BESTSELLER*</p>
+            <p> *INSTANT #1 INDIE BESTSELLER*</p>
+            </p>From the New York Times bestselling author of Red, White & Royal Blue comes a new romantic comedy that
+            will stop readers in their tracks...
+            For cynical twenty-three-year-old August, moving to New York City is supposed to prove her right: that
+            things like magic and cinematic love stories don't exist, and the only smart way to go through life is
+            alone. She can't imagine how waiting tables at a 24-hour pancake diner and moving in with too many weird
+            roommates could possibly change that. And there's certainly no chance of her subway commute being anything
+            more than a daily trudge through boredom and electrical failures.
+            But then, there's this gorgeous girl on the train.
+            Jane. Dazzling, charming, mysterious, impossible Jane. Jane with her rough edges and swoopy hair and soft
+            smile, showing up in a leather jacket to save August's day when she needed it most. August's subway crush
+            becomes the best part of her day, but pretty soon, she discovers there's one big problem: Jane doesn't just
+            look like an old school punk rocker. She's literally displaced in time from the 1970s, and August is going
+            to have to use everything she tried to leave in her own past to help her. Maybe it's time to start believing
+            in some things, after all.
+            Casey McQuiston's One Last Stop is a magical, sexy, big-hearted romance where the impossible becomes
+            possible as August does everything in her power to save the girl lost in time.
+            A dazzling romance, filled with plenty of humor and heart. - Time Magazine, The 21 Most Anticipated Books of
+            2021
+            Dreamy, other worldly, smart, swoony, thoughtful, hilarious - all in all, exactly what you'd expect from
+            Casey McQuiston! - Jasmine Guillory, New York Times bestselling author of The Proposal and Party for Two</p>
+            <p>4.4 average based on 654 reviews.</p>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="book6.PNG">
+            <h1>Somebody's Daughter: A Memoir</h1>
+            <h3>Ashley C. Ford</h3>
+            <hr>
+        </div>
+        <div class="column">
+            <p>"Sure to be one of the best memoirs of 2021." --Kirkus Reviews, starred review</p>
+
+            <p> "So clear, sharp, and smooth that the reader sees, in vivid focus, Ford's complicated childhood,
+                brilliant mind, and golden heart. Ford is a writer for the ages, and Somebody's Daughter will be a book
+                of the year." --Glennon Doyle, #1 New York Times bestselling author of Untamed</p>
+
+            <p> "Ford's wrenchingly brilliant memoir is truly a classic in the making. The writing is so richly observed
+                and so suffused with love and yearning that I kept forgetting to breathe while reading it." --John
+                Green, #1 New York Times bestselling author</p>
+
+            <p> One of the most prominent voices of her generation debuts with an extraordinarily powerful memoir: the
+                story of a childhood defined by the looming absence of her incarcerated father.
+                Through poverty, adolescence, and a fraught relationship with her mother, Ashley Ford wishes she could
+                turn to her father for hope and encouragement. There are just a few problems: he's in prison, and she
+                doesn't know what he did to end up there. She doesn't know how to deal with the incessant worries that
+                keep her up at night, or how to handle the changes in her body that draw unwanted attention from men. In
+                her search for unconditional love, Ashley begins dating a boy her mother hates. When the relationship
+                turns sour, he assaults her. Still reeling from the rape, which she keeps secret from her family, Ashley
+                desperately searches for meaning in the chaos. Then, her grandmother reveals the truth about her
+                father's incarceration . . . and Ashley's entire world is turned upside down.
+                Somebody's Daughter steps into the world of growing up a poor Black girl in Indiana with a family
+                fragmented by incarceration, exploring how isolating and complex such a childhood can be. As Ashley
+                battles her body and her environment, she embarks on a powerful journey to find the threads between who
+                she is and what she was born into, and the complicated familial love that often binds them.</p>
+            <p>4.9 average based on 994 reviews.</p>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
+        </div>
+
+</body>
+
+</html>
